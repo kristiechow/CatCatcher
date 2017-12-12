@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kristie.myapplication.HistoryFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:padding="10dip">
+
+        <ImageView
+            android:id="@+id/catIcon"
+            android:layout_width="65dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="TODO"
+            android:src="@drawable/clickicon" />
+
+        <TextView
+            android:id="@+id/catName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/catLong"
+            android:layout_alignStart="@+id/catLong"
+            android:layout_alignTop="@+id/catIcon"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="theCatsName"
+            android:textColor="#c60a0a"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/catLong"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Longitude"
+            android:textColor="#080000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/catLat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/catLong"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/catLong"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#080000"
+            android:text="Latitude"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/catPetted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+</FrameLayout>
