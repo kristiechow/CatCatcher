@@ -1,3 +1,1 @@
-Lab 4 Code - Jalen Wang and Kristie Chow
-
-Apologies for the late upload - we were pushing our most recent changes to the wrong repo and it just came to our attention that it was all stored in the wrong place!
+Cat Catcher is an Android game developed in Android Studio that challenges players to venture around campus to points where there are virtual cats. When players come within a certain distance of a cat, they may "catch" it for points.
